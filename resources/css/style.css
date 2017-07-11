@@ -1,3 +1,203 @@
+
+html{
+  font-family: sans-serif;
+}
+
+header {
+  height: 64px;
+  background-color: #F8F6F6;
+}
+
+.logo img {
+  padding-left: 24px;
+}
+
+.logo span {
+  text-transform: capitalize;
+}
+
+.logo .colmar{
+  font-weight:bold;
+}
+
+.logo .academy {
+  font-weight: lighter;
+}
 .second-nav{
   display: none;
+}
+
+.main-nav li{
+  padding-right: 16px;
+}
+
+.banner img{
+  width: 60%;
+  padding: 32px 40px 32px 24px;
+}
+
+.banner{
+  background-color: #999696;
+}
+
+.banner h1,
+.banner h2{
+  color: #3A3737;
+}
+
+.button{
+  background-color: #3A3737;
+  color: #F8F6F6;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.practicing-whole{
+  background-color: #F8F6F6;
+}
+
+.practicing-left img{
+  width: 60%;
+  padding: 32px 24px 32px 23px;
+}
+
+.practicing-left h4{
+  color: #3A3737;
+  padding-bottom: 24px;
+}
+
+.practicing-left h5{
+  color: #6E6B6B;
+}
+
+.practicing-left h6{
+  color: #3A3737
+}
+
+.practicing-right{
+  background-color: #F8F6F6;
+  width: 423px;
+  border-left: 1px solid #999696;
+}
+
+.practicing-right img{
+  width: 35%;
+  padding: 16px;
+}
+
+.practicing-right span{
+  color: #3A3737;
+  padding-bottom: 8px;
+}
+
+.read-more{
+  color: blue;
+}
+
+.practicing-right h6{
+  color: #6E6B6B;
+  padding-bottom: 8px;
+}
+
+.guest-lecture{
+  background-color: #999696;
+}
+
+.grid{
+  background-color: #c4c2c2;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.grid h4{
+  color: #3A3737;
+  padding-bottom: 32px;
+}
+
+.course-grid{
+  background-color: white;
+  margin-right: 32px;
+}
+
+.course-grid img{
+  width: 100%;
+  height: 100px;
+}
+
+.course-grid span{
+  padding-top: 16px;
+  padding-left: 16px;
+  color: #6E6B6B;
+}
+
+.course-grid h6{
+  padding-top: 8px;
+  padding-left: 16px;
+  color: #6E6B6B;
+}
+
+.course-grid .courses{
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.thesis{
+  background-color:#F8F6F6;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.thesis h4{
+  padding-bottom: 16px;
+  color: #3A3737;
+}
+
+.thesis-left video{
+  padding: 16px 24px 16px 24px;
+}
+
+.thesis-left span{
+  color: #3a3737;
+}
+
+.thesis-left h5{
+  color: #6E6B6B
+}
+
+.thesis-right{
+  width: 423px;
+  height: 168px;
+  background-color:#F8F6F6;
+}
+
+.thesis-right img{
+  padding: 16px;
+  width: 35%;
+}
+
+.fisma{
+  background-color: #999696;
+}
+
+.thesis-right span{
+  color: #3A3737;
+}
+
+.thesis-right h6{
+  color: #6E6B6B;
+}
+
+footer{
+  border-top: 1px solid lightgrey;
+}
+
+.footer{
+  padding-left: 24px;
+  color: #6E6B6B;
+  text-align: left;
+}
+
+.footer-nav{
+  text-align: right;
+  color: #6E6B6B;
 }
