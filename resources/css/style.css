@@ -6,6 +6,8 @@ html{
 header {
   height: 64px;
   background-color: #F8F6F6;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -13,11 +15,11 @@ header {
 }
 
 .logo span {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .logo .colmar{
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .logo .academy {
@@ -27,22 +29,28 @@ header {
   display: none;
 }
 
-.main-nav li{
+nav span{
   padding-right: 16px;
+  display: inline-block;
+  right: 0;
 }
 
 .banner img{
   width: 60%;
+  height: 60%;
   padding: 32px 40px 32px 24px;
 }
 
 .banner{
-  background-color: #999696;
+  background-color: #C4C2C2;
+  display: flex;
+  align-items: center;
 }
 
 .banner h1,
 .banner h2{
   color: #3A3737;
+
 }
 
 .button{
@@ -50,10 +58,13 @@ header {
   color: #F8F6F6;
   padding-top: 8px;
   padding-bottom: 8px;
+  text-align:center;
+  width: 80%;
 }
 
 .practicing-whole{
   background-color: #F8F6F6;
+  display: flex;
 }
 
 .practicing-left img{
@@ -78,6 +89,7 @@ header {
   background-color: #F8F6F6;
   width: 423px;
   border-left: 1px solid #999696;
+  display: block;
 }
 
 .practicing-right img{
@@ -107,6 +119,7 @@ header {
   background-color: #c4c2c2;
   padding-bottom: 32px;
   padding-top: 32px;
+  display: flex;
 }
 
 .grid h4{
@@ -145,6 +158,7 @@ header {
   background-color:#F8F6F6;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
 }
 
 .thesis h4{
