@@ -32,7 +32,6 @@ header {
 nav span{
   padding-right: 16px;
   display: inline-block;
-  right: 0;
 }
 
 .banner img{
@@ -65,11 +64,16 @@ nav span{
 .practicing-whole{
   background-color: #F8F6F6;
   display: flex;
+  padding-left: 24px;
 }
 
-.practicing-left img{
+.practicing-left{
   width: 60%;
-  padding: 32px 24px 32px 23px;
+}
+.practicing-left img{
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .practicing-left h4{
@@ -89,7 +93,10 @@ nav span{
   background-color: #F8F6F6;
   width: 423px;
   border-left: 1px solid #999696;
-  display: block;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .practicing-right img{
@@ -115,21 +122,25 @@ nav span{
   background-color: #999696;
 }
 
-.grid{
+.grid-1{
   background-color: #c4c2c2;
   padding-bottom: 32px;
   padding-top: 32px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.grid h4{
+.grid-1 h4{
   color: #3A3737;
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .course-grid{
   background-color: white;
   margin-right: 32px;
+  width: 60%;
 }
 
 .course-grid img{
@@ -203,12 +214,15 @@ nav span{
 
 footer{
   border-top: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
 }
 
 .footer{
   padding-left: 24px;
   color: #6E6B6B;
   text-align: left;
+  flex-grow: 1;
 }
 
 .footer-nav{
