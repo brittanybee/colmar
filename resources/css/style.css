@@ -1,6 +1,7 @@
 
 html{
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 header {
@@ -36,7 +37,6 @@ nav span{
 
 .banner img{
   width: 60%;
-  height: 60%;
   padding: 32px 40px 32px 24px;
 }
 
@@ -49,7 +49,14 @@ nav span{
 .banner h1,
 .banner h2{
   color: #3A3737;
+}
 
+.banner h1{
+  font-size: 2rem;
+}
+
+.banner h2{
+  font-size: 1.5rem;
 }
 
 .button{
@@ -67,22 +74,21 @@ nav span{
   padding-left: 24px;
 }
 
-.practicing-left{
-  width: 60%;
-}
 .practicing-left img{
-  width: 100%;
+  width: 82%;
   padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .practicing-left h4{
   color: #3A3737;
-  padding-bottom: 24px;
+  font-size: 1.5rem;
 }
 
 .practicing-left h5{
   color: #6E6B6B;
+  width: 82%;
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
 
 .practicing-left h6{
@@ -93,39 +99,41 @@ nav span{
   background-color: #F8F6F6;
   width: 423px;
   border-left: 1px solid #999696;
-  display: inline;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
-.practicing-right img{
+.right-box{
+  width: 423px;
+  height: 168px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.right-box img{
   width: 35%;
   padding: 16px;
 }
 
-.practicing-right span{
-  color: #3A3737;
-  padding-bottom: 8px;
+.right-box h6{
+  font-weight:lighter;
 }
 
-.read-more{
-  color: blue;
+.right-box h5{
+  font-weight:lighter;
+  color: skyblue;
 }
-
-.practicing-right h6{
-  color: #6E6B6B;
-  padding-bottom: 8px;
-}
-
-.guest-lecture{
-  background-color: #999696;
+.start-learning{
+  background-color:#c4c2c2;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .grid-1{
   background-color: #c4c2c2;
   padding-bottom: 32px;
-  padding-top: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,83 +141,68 @@ nav span{
 
 .grid-1 h4{
   color: #3A3737;
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
 
 .course-grid{
   background-color: white;
-  margin-right: 32px;
+  margin-right: 16px;
+  margin-left: 16px;
   width: 60%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .course-grid img{
   width: 100%;
   height: 100px;
+  padding-bottom: 16px;
 }
 
 .course-grid span{
-  padding-top: 16px;
   padding-left: 16px;
   color: #6E6B6B;
 }
 
 .course-grid h6{
-  padding-top: 8px;
+  padding-right: 16px;
   padding-left: 16px;
   color: #6E6B6B;
-}
-
-.course-grid .courses{
-  padding-top: 8px;
-  padding-bottom: 24px;
+  font-weight: lighter;
 }
 
 .thesis{
   background-color:#F8F6F6;
-  padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
 }
 
-.thesis h4{
-  padding-bottom: 16px;
+.thesis-exhibit{
+  display: flex;
+  justify-content: center;
+  background-color: #f8f6f6;
+  font-size: 1.5rem;
   color: #3A3737;
-}
-
-.thesis-left video{
-  padding: 16px 24px 16px 24px;
 }
 
 .thesis-left span{
   color: #3a3737;
+  display:block;
 }
 
+.thesis-left{
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+}
+
+.thesis-left video{
+  width: 82%;
+}
 .thesis-left h5{
-  color: #6E6B6B
-}
-
-.thesis-right{
-  width: 423px;
-  height: 168px;
-  background-color:#F8F6F6;
-}
-
-.thesis-right img{
-  padding: 16px;
-  width: 35%;
-}
-
-.fisma{
-  background-color: #999696;
-}
-
-.thesis-right span{
-  color: #3A3737;
-}
-
-.thesis-right h6{
   color: #6E6B6B;
+  width: 82%;
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
 
 footer{
