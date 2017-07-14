@@ -11,6 +11,17 @@ header {
   align-items: center;
 }
 
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+  .logo span{
+    display:none;
+  }
+}
+
 .logo img {
   padding-left: 24px;
 }
@@ -26,17 +37,40 @@ header {
 .logo .academy {
   font-weight: lighter;
 }
+
 .second-nav{
   display: none;
 }
 
+.main-nav{
+  padding-left: 830px;
+  padding-right: 16px;
+  display: flex;
+  text-align: right;
+}
+
 nav span{
   padding-right: 16px;
-  display: inline-block;
+}
+
+@media only screen and (max-width: 480px){
+  .main-nav{
+    display: none;
+  }
+
+  .second-nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .second-nav img{
+    padding: 45px;
+  }
 }
 
 .banner img{
-  width: 60%;
+  width: 56%;
   padding: 32px 40px 32px 24px;
 }
 
@@ -44,6 +78,43 @@ nav span{
   background-color: #C4C2C2;
   display: flex;
   align-items: center;
+}
+
+.rectangle{
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+  .main-banner{
+    display: none;
+  }
+
+  .banner{
+    height: 260px;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: lightgrey;
+  }
+
+  .banner h1{
+    padding-bottom: 16px;
+  }
+
+  .banner h2{
+    padding-bottom: 12px;
+  }
+
+  .button{
+    padding-left: 32px;
+    padding-right:32px;
+  }
+
+  .rectangle{
+    display: flex;
+    height: 180px;
+    background-color: darkgrey;
+  }
 }
 
 .banner h1,
@@ -79,6 +150,12 @@ nav span{
   padding-top: 32px;
 }
 
+@media only screen and (max-width: 480px){
+  .practicing-left{
+    display:none;
+  }
+}
+
 .practicing-left h4{
   color: #3A3737;
   font-size: 1.5rem;
@@ -101,6 +178,12 @@ nav span{
   border-left: 1px solid #999696;
 }
 
+@media only screen and (max-width: 480px){
+  .practicing-right{
+    border-left: none;
+  }
+}
+
 .right-box{
   width: 423px;
   height: 168px;
@@ -114,6 +197,28 @@ nav span{
   width: 35%;
   padding: 16px;
 }
+
+@media only screen and (max-width: 480px){
+  .right-box{
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+  }
+
+  .right-box h4,
+  .right-box h5,
+  .right-box h6{
+    padding-left: 32px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .right-box img{
+    width: 85%;
+    height: 85%;
+  }
+}
+
 
 .right-box h6{
   font-weight:lighter;
@@ -135,8 +240,37 @@ nav span{
   background-color: #c4c2c2;
   padding-bottom: 32px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.grid-2{
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+  .grid-2{
+    display: block;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 32px;
+  }
+
+  .grid-2 h4{
+    padding: 24px;
+    background-color: lightgrey;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+    font-size: 1.25rem;
+  }
+
+  .start-learning{
+    margin-top: 125px;
+    background-color: white;
+    border-top: 1px solid lightgrey;
+  }
+
+  .grid-1{
+    display: none;
+  }
 }
 
 .grid-1 h4{
@@ -149,7 +283,7 @@ nav span{
   margin-left: 16px;
   width: 60%;
   justify-content: space-around;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .course-grid img{
@@ -205,10 +339,33 @@ nav span{
   font-weight: lighter;
 }
 
+@media only screen and (max-width: 480px){
+  .thesis-right{
+    display: none;
+  }
+
+  .thesis-left h5,
+  .thesis-left span{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .footer-nav{
+    display: none;
+  }
+
+.footer{
+  padding-top:32px;
+ }
+}
+
+
 footer{
   border-top: 1px solid lightgrey;
   display: flex;
   align-items: center;
+  padding-bottom: 24px;
 }
 
 .footer{
@@ -216,9 +373,13 @@ footer{
   color: #6E6B6B;
   text-align: left;
   flex-grow: 1;
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
 
 .footer-nav{
   text-align: right;
   color: #6E6B6B;
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
